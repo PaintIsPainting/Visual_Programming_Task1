@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Example</title>
+    <title>Laporan Praktikum</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <style>
         .aligned-colon {
@@ -31,17 +31,17 @@
             <div class="row mt-3">
                 <div class="col-2">Nama</div>
                 <div class="col-1">:</div>
-                <div class="col-8">(Nama Lengkap)</div>
+                <div class="col-8">Ahmed Jhordy</div>
             </div>
             <div class="row mt-3">
                 <div class="col-2">Kelas</div>
                 <div class="col-1">:</div>
-                <div class="col-3">(tahun) (A/B)</div>
+                <div class="col-3">A</div>
             </div>
             <div class="row mt-3">
                 <div class="col-2">Matakuliah</div>
                 <div class="col-1">:</div>
-                <div class="col-3">(Nama Mata Kuliah)</div>
+                <div class="col-3">Pemrograman Visual</div>
             </div>
             <div class="row mt-3">
                 <div class="col-2">Laporan ke-</div>
@@ -69,14 +69,53 @@
         <section class="task-section">
             <div class="container mt-5">
                 <div class="card p-5 mb-5">
-                    <h2>1. Clone Repositori</h2>
-                    <img src="Clone-github.png" alt="" class="ml-4">
+                    <h2>1. Clone Github</h2>
+                    <h3>input :</h3>
+                    <img src="clone_input.png" alt="" class="ml-4">
                     <hr>
                     <div class="output ml-4 ">
                         <h3>output :</h3>
-                        <img src="output-clone.png" alt="">
+                        <img src="clone_output.png" alt="">
                         <div class="title-section mt-3 p-3" style="background-color: rgb(139, 150, 166); border-radius:0.25rem;">
-                            <p style="color:rgb(0, 0, 0);">(Penjelasan langkah pertama, Contoh : <br>Ketika clone repositori telah selesai maka folder dengan nama "example" akan muncul dan mengisikan file "task.py")</p>
+                            <p style="color:rgb(0, 0, 0);">Penjelasan langkah pertama :<br>Melakukan clone repositori dari github https://github.com/Elxixau/Visual_Programming_Task1.git kemudian jika sudah selesai clone maka folder dengan nama "Visual_Programming_Task1" dan kita akses dengan memasukkan perintah "cd Visual_Programming_Task1"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-5 mb-5">
+                    <h2>2. Buat Repositori</h2>
+                    <h3>input & output:</h3>
+                    <img src="brepository.png" alt="" class="ml-4">
+                    <div class="title-section mt-3 p-3" style="background-color: rgb(139, 150, 166); border-radius:0.25rem;">
+                        <p style="color:rgb(0, 0, 0);">Penjelasan langkah kedua : <br>Untuk membuat foder atau repositori kita bisa menggunakan perintah "mkdir (nama repositori)" sebagai contoh, "mkdir Pemrograman_Visual_Task1" kemudian membuat sebuah folder lagi di dalam repositori "Pemrograman_Visual_Task1" dengan nama dan NIM yang kita miliki sebagai contoh, "mkdir Ahmed_Jhordy_2105176011"</p>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="card p-5 mb-5">
+                    <h2>3. Pindah Repositori</h2>
+                    <h3>input :</h3>
+                    <img src="mv_repo.png" alt="" class="ml-4">
+                    <hr>
+                    <div class="output ml-4 ">
+                        <h3>output :</h3>
+                        <img src="output_mvrepo.png" alt="">
+                        <div class="title-section mt-3 p-3" style="background-color: rgb(139, 150, 166); border-radius:0.25rem;">
+                            <p style="color:rgb(0, 0, 0);">Penjelasan langkah ketiga : <br>untuk memindahkan folder satu ke folder lainnya kita dapat menggunakan perintah "mv (nama folder yang ingin kita pindahkan) (alamat foldernya)" sebagai contoh disini kita menggunakan perintah "mv weekly_task_1 ../Pemrograman_Visual_Task1/Ahmed_Jhordy_2105176011". Jika kita memindahkannya ke repositori lain yang berada di luar repositori tersebut maka kita perlu menggunakan "../nama_repositori" tetapi jika foldernya berada di satu tempat dengan file yang ingin kita pindah maka cukup memasukkan perintah "mv (nama repositori) (tujuan_file)"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card p-5 mb-5">
+                    <h2>4. Coding</h2>
+                    <h3>input :</h3>
+                    <img src="coding.png" alt="" class="ml-4">
+                    <hr>
+                    <div class="output ml-4 ">
+                        <h3>output :</h3>
+                        <img src="output_coding.png" alt="">
+                        <div class="title-section mt-3 p-3" style="background-color: rgb(139, 150, 166); border-radius:0.25rem;">
+                            <p style="color:rgb(0, 0, 0);">Penjelasan langkah keempat : <br>Pada bagian keempat kita membuat coding dengan metode konstruktor "init", dimana parameter akan menampilkan "nama", "kelas", "prodi", "fakultas", "tempat_tinggal", "asal". Pertama kita membuat classnya terlebih dahulu dan disini saya  menggunakan nama classnya "Mahasiswa" dan kemudian kita menentukan atribute dan parameter dari class tersebut seperti nama, kelas, prodi, fakultas, dan lainnya. Setelah membuat atribute dan parameternya kita menentukan objek atau text yang perlu diisi ketika kita memanggil parameter yang sudah kita tentukan sebelumnya. Untuk memanggil objek dan parameternya kita bisa menggunakan perintah "print" dan sistem secara otomatis akan menampilkan objek sesuai dengan parameter yang kita masukkan</p>
                         </div>
                     </div>
                 </div>
